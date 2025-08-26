@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_QM5vASq">THE CENTRAL BANKING SYSTEM PARADOX</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Víctor</forename><forename type="middle">I</forename><surname>Espinosa</surname></persName>
+							<email>vespinosa@udd.cl</email>
+						</author>
+						<author>
+							<persName><forename type="first">Miguel</forename><forename type="middle">A</forename><surname>Alonso-Neira</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jesús</forename><surname>Huerta De Soto</surname></persName>
+							<email>huertadesoto@dimasoft.es</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Universidad Autónoma de Chile</orgName>
+								<orgName type="institution" key="instit2">Universidad del Desarrollo</orgName>
+								<address>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad Rey Juan Carlos</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Universidad Rey Juan Carlos</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_ChMnHRz">THE CENTRAL BANKING SYSTEM PARADOX</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">2071-789X</idno>
+					</monogr>
+					<idno type="MD5">F51FC1B17C8D7891E6643EF048F059E8</idno>
+					<idno type="DOI">10.14254/2071-</idno>
+					<note type="submission">Received: February, 2023 1st Revision: September, 2023 Accepted: December, 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-08-26T11:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_tsxzv2n">JEL Classification: E31</term>
+					<term xml:id="_N4Bku8h">E32</term>
+					<term xml:id="_nwrHRBt">E58 interest rate</term>
+					<term xml:id="_PaGahyA">central bank</term>
+					<term xml:id="_GCTjz86">inflation</term>
+					<term xml:id="_htXcYca">business cycle</term>
+					<term xml:id="_EtknBVj">100 percent reserve requirements</term>
+					<term xml:id="_SUajp6f">banking ethics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_u8jzGJW"><p xml:id="_6kSqTZ9"><s xml:id="_7jnKKAP">The conventions of monetary theory assume the central banking system (CBS) as the starting point for achieving the stability and efficiency of the financial system.</s><s xml:id="_J8hYUEQ">This paper stresses the stability-efficiency thesis based on the Austrian business cycle theory (ABCT).</s><s xml:id="_4FvUNWT">It argues that the stability-efficiency thesis under CBS poses a paradox for two main reasons.</s><s xml:id="_HsdvMDC">First, central banks' interest rate handling causes business cycles, yielding the intertemporal discoordination of the money and goods markets.</s><s xml:id="_CYmyTMn">Second, a central bank's lender-of-last-resort role is an incentive to call for further interest rate handling, making the chance of smooth business cycles difficult or impossible.</s><s xml:id="_xzUqG8H">This paradox is empirically analyzed and discussed through the True Money Supply (TMS) performance in the United States's business cycle phases between 1975 and 2022.</s><s xml:id="_VbE8Djx">Consistent with the ABCT, the research results unlock the paradox by showing that CBS causes business cycles.</s><s xml:id="_nuYNBYG">Some policy implications are outlined for further research and revision of monetary theory.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_xqD4Ey7">Introduction</head><p xml:id="_MW6DfqB"><s xml:id="_WEuZgGp">The conventions of monetary theory assume the central banking system (CBS) as the starting point for achieving the stability and efficiency of the financial system and ensuring persistently low and stable inflation over time that guarantees the normal functioning of internal and external payments <ref type="bibr" target="#b28">(Goodhart, 1988;</ref><ref type="bibr">Nersisyanu &amp; Wray, 2016;</ref><ref type="bibr" target="#b64">Taylor, 2019;</ref><ref type="bibr" target="#b16">Dikau &amp; Volz, 2021)</ref>.</s><s xml:id="_htKFvsS">Among the standard functions of a central bank, handling the interest rate to change the supply of money and credit stands out <ref type="bibr" target="#b60">(Selgin &amp; White, 1994)</ref>.</s><s xml:id="_TZaKypD">A crucial aspect of CBS is that it allows commercial banks to operate with fractional reserve, that is, to treat deposits as loans to increase the supply of loanable funds.</s><s xml:id="_bRQc5wf">Commercial banks hold a small fraction of demand deposits to meet repayment demands and then lend the rest, expanding the supply of loanable funds of the monetary base <ref type="bibr">(Bagus et al., 2013;</ref><ref type="bibr" target="#b28">Goodhart &amp;</ref> are attributable to a monetary cause, affecting relative prices of the economic system with real consequences in the intertemporal structure of production.</s><s xml:id="_JdjgDs5">Other Austrian economists, such as <ref type="bibr">Skousen (1990)</ref>, <ref type="bibr" target="#b14">Cowen (1998)</ref>, <ref type="bibr" target="#b37">Horwitz (2000)</ref>, <ref type="bibr" target="#b27">Garrison (2001)</ref>, <ref type="bibr" target="#b59">Salerno (2010)</ref>, <ref type="bibr" target="#b67">Young (2015)</ref>, Huerta de Soto (2020), and <ref type="bibr" target="#b54">Potuzak (2022)</ref> provide different variations of the theory appropriate for specific episodes of business cycles to define the macroeconomic analysis complexity from micro-fundamentals <ref type="bibr" target="#b53">(Paniagua, 2023)</ref>.</s></p><p xml:id="_E9ZrGxs"><s xml:id="_aeCKWTU">The canonical variant of the ABCT explains boom-bust cycles because of a central bank's credit inflation in a fractional-reserve banking system, thus emerging the stabilityefficiency thesis paradox. <ref type="foot" target="#foot_2">2</ref> The theory begins with a hypothetical equilibrium over time in the production structure, deriving the predictable results of a central bank disruption of that equilibrium.</s><s xml:id="_4EmmcND">Thus, the canonical theory focuses on (1) the time structure of production, (2) the potential for credit inflation to alter the relative prices of current versus future goods, and (3) a misallocation of resources between production processes that require more or less time.</s><s xml:id="_tkMRZRB"><ref type="bibr" target="#b49">Mises (1949)</ref> explained that producing consumer and capital goods requires time.</s><s xml:id="_pBMFBja">In a dynamic economy, capital goods are heterogeneous and have multi-specific uses due to their physical dimensions and the different attributes depending on the subjective plans they can satisfy.</s><s xml:id="_K7E8m5j">They can also be substitutes or complementary in the production process.</s><s xml:id="_BSCXqxp">Economic calculation facilitates the combinations of capital goods that go through stages of production until they produce the final goods, which can be capital goods (used to produce other goods) or consumer goods.</s><s xml:id="_JkXaX7J">The production time depends on the available technology and the time preference of agents as the trade-off between preferred present goods or future goods.</s></p><p xml:id="_23phXy4"><s xml:id="_Fz5TYhS">More roundabout production methods tend to be more productive.</s><s xml:id="_WJ6dTds">Agents are willing to give up closer ends to pursue goods with a longer production time if they "judge" this will achieve longer-lasting satisfaction or utility.</s><s xml:id="_qjyBQW6">The search for more lasting ends is because (1) it is impossible to attain the same end immediately, or (2) the expected result is more significant than what could be achieved in shorter time processes.</s><s xml:id="_5KWxAGe">For example, Robinson Crusoe can hunt (consumer good) with his bare hands, but he will be much more productive if he has a spear (capital good).</s><s xml:id="_qK7bYng">This production process requires time from obtaining the given products of nature (capital goods) to combining them and obtaining the spear.</s></p><p xml:id="_ce5rUyb"><s xml:id="_tARy3tN">Improvements in the quality and quantity of consumer goods available in the economy mean developed stages in increasingly complex production structures, requiring investment in capital goods accumulation, which in turn depends on the level of genuine savings (prefer future goods over present goods) <ref type="bibr" target="#b42">(Kirzner, 2017)</ref>.</s><s xml:id="_6YamR5K">When dealing with time preferences, the natural or Wicksellian interest rate corresponds to the market interest rate as the price of time.</s><s xml:id="_2a4rTMm">It signals entrepreneurs which investment projects are relatively the most profitable.</s><s xml:id="_ThgJRWu">A high degree of impatience (low level of saving) means a higher preference for present goods than future goods, which tends to raise the interest rate.</s><s xml:id="_Vgf7EgB">A low time preference (higher level of savings) shows a greater relative preference for future goods than for present goods, which tends to reduce the interest rate.</s><s xml:id="_NSx2pXT">Since the agents' decisions to save imply their consumption decisions, a fall in the market interest rate will tend to coordinate the investment profit promises of entrepreneurs in a more capital-intensive production structure with the time preferences of consumers intertemporally.</s><s xml:id="_tVXwNrJ">Based on the prior genuine savings increase, the entrepreneurial market process facilitates the healthiest economic growth and development conceivable <ref type="bibr" target="#b18">(Espinosa et al., 2021)</ref>.</s><s xml:id="_aXQQ7q3">Suppose a central banking system (CBS).</s><s xml:id="_JBGFgch">It involves the fractional reserve to "lend the demand deposits": the deposit contract (it does not transfer availability) is treated as equivalent to the loan contract (it transfers availability) <ref type="bibr" target="#b10">(Bolton &amp; Dewatripont, 2004)</ref>.</s><s xml:id="_DtD3xvk">When bank A lends a fraction of the deposits to others, depositors and borrowers have the same money available.</s><s xml:id="_HNaTaXp">"Lending deposits" is ontologically impossible, expanding the supply of money and credit in practice <ref type="bibr" target="#b2">(Bagus &amp; Howden, 2012)</ref>.</s><s xml:id="_MG94uRM">The central bank can increase the growth rate of the money supply, inflating credit and reducing the market interest rate below the natural rate. <ref type="foot" target="#foot_4">3</ref></s><s xml:id="_86CGhjP">As in any price control, time price control does not adequately express the trade-off of present and future goods of individuals <ref type="bibr" target="#b34">(Hayek, 1945;</ref><ref type="bibr" target="#b11">Bylund &amp; Packard, 2022)</ref>.</s><s xml:id="_TNBQUUH">Production becomes inconsistent with consumers' time preferences and available technology.</s></p><p xml:id="_2PZcjZ7"><s xml:id="_JVvWdyn">On the one hand, the central bank's interest rate reduction makes investing in projects to produce future goods artificially profitable, whose demand the entrepreneurs judge to manifest in the future <ref type="bibr" target="#b40">(Hülsmann, 1998)</ref>.</s><s xml:id="_thHrKMD">Entrepreneurs then tend to execute more roundabout projects from final consumption with the promise of coordinating with greater demand in the future as if previous savings in the economy had increased, something that did not happen.</s><s xml:id="_gYPGGU5">On the other hand, consumers judge that they can execute more direct plans with more favorable credit conditions.</s><s xml:id="_wYGPGjY">This intertemporal discoordination denotes the boom phase of the ABCT.</s></p><p xml:id="_6AStbTP"><s xml:id="_9byh7bq">The boom consists of a discrepancy between the investment plans of entrepreneurs and the plans of consumers.</s><s xml:id="_fKdN5Kt">If investment plans exceed the economy's genuine saving level because people's time preferences stay the same, more roundabout projects will not be in demand <ref type="bibr" target="#b6">(Bagus et al., 2018)</ref>.</s><s xml:id="_mGVwjZ5">However, the handled interest rate makes entrepreneurs judge consumers as more future-oriented <ref type="bibr">(Garrison, 2004)</ref>.</s><s xml:id="_uwfFk3W">Entrepreneurs judge that more capitalintensive investment plans will be completed and demanded.</s><s xml:id="_X7HB3Xf">By game theory, if banks can operate on fractional reserve and firms can access cheap credit, the best answer is for the bank to expand credit and have entrepreneurs use it with the promise of additional benefits.</s><s xml:id="_t4PqukC">A different action will harm the position of a bank or company's position vis-à-vis the short-term competition <ref type="bibr" target="#b66">(Van Den Hauwe, 2008)</ref>.</s></p><p xml:id="_v2K3XhW"><s xml:id="_bwVJJR3">When cheap credit enters the economy through the demand of entrepreneurs to finance the production of future goods, the prices of the most roundabout capital goods tend to rise concerning the prices of goods closest to final consumption.</s><s xml:id="_FutYkrZ">This boom induces an artificial increase in the expected profitability of the most roundabout projects from final consumption.</s><s xml:id="_xtScdwv">Entrepreneurs tend to reallocate resources (e.g., labor) towards more roundabout production processes, increasing the stages of the production structure (The Ricardo Effect).</s><s xml:id="_xMD9Ekc">However, consumers increase their demand for present goods, which is the opposite of what the interest rate signals to entrepreneurs.</s><s xml:id="_ZNCDTfm">The increase in investment by entrepreneurs and consumption by consumers increases aggregate demand and employment in the short term, just as the Keynesian approach predicts <ref type="bibr" target="#b15">(Dalziel, 2002;</ref><ref type="bibr" target="#b7">Bibow, 2002;</ref><ref type="bibr" target="#b17">Dosi et al., 2013;</ref><ref type="bibr" target="#b21">Fazzari, 2020)</ref>.</s></p><p xml:id="_GUB6GDZ"><s xml:id="_fErG8Yn">The Keynesian doctrines neglect the long-term effects of the central bank's interest rate handles and the inconsistent increase in forced (non-genuine) savings in distorting the intertemporal production structure.</s><s xml:id="_dQXnNTb">Nor is it seen that fiscal policy could worsen this outcome through the crowding out effect <ref type="bibr" target="#b9">(Boettke &amp; Newman, 2017)</ref>.</s><s xml:id="_qDhJyRf">The Cantillon effect explains that the extra-market-induced mismatch between production and consumption plans gradually deteriorates the economy in which newly created money is distributed in stages as agents receive and use it <ref type="bibr" target="#b13">(Cochran &amp; Call, 1998;</ref><ref type="bibr" target="#b61">Sieroń, 2020)</ref>.</s><s xml:id="_eu44kdr">The boom ends when the increase in the money supply exceeds the increase in the production of consumer goods, reducing the purchasing power of money and distorting the price system into an inflationary spiral.</s></p><p xml:id="_EDPQA7K"><s xml:id="_4q3TQ8R">According to Huerta de Soto (2020), the shift from boom to bust finds entrepreneurs with malinvestment and consumers with overconsumption, where genuine savings decline as interest rates fall artificially.</s><s xml:id="_Tz5SFp3">The ABCT explains that malinvestments will increase during the boom.</s><s xml:id="_Dhth7KR">However, it cannot identify which projects will become unprofitable, nor can investors themselves know in advance.</s><s xml:id="_AFSfmg3">Even if investors become cautious, the percentage of investment projects that eventually become unprofitable will increase <ref type="bibr" target="#b36">(Holcombe, 2017)</ref>.</s></p><p xml:id="_2hkyeja"><s xml:id="_ea4mBrJ">Entrepreneurs try to harness resources to complete roundabout processes for producing future goods.</s><s xml:id="_7gUwfDc">Consumers demand more resources to satisfy their current demand for goods.</s><s xml:id="_mWE6aZ5">This tug-of-war between consumption and production structure causes accounting losses in the most roundabout stages from final consumption.</s><s xml:id="_GSThwrg">It subsequently drives the rise in interest rates, even higher than before the credit expansion because 1) the premium for the expected loss of purchasing power and the risk of default increase; 2) entrepreneurs prefer to pay higher interest rather than lose what they have invested.</s><s xml:id="_gXkX7FZ">Hence, entrepreneurs cannot profit by acting against consumers' preferences and relative increase in the accounting profits of companies in the stages closest to final consumption.</s></p><p xml:id="_GDryNXc"><s xml:id="_FjHNsQr">Profit promises are transferred to investments in lower-order goods in the long term.</s><s xml:id="_Bb4n3Nm">The more than proportional increase in the price of consumer goods concerning the increase in the income of the factors of production means that, in real terms, these, specifically wages, decrease.</s><s xml:id="_qyzFqaQ">Entrepreneurs tend to substitute capital equipment for labour in the roundabout stages (the Ricardo Effect reversal) <ref type="bibr" target="#b32">(Hagemann &amp; Trautwein, 1998)</ref>.</s><s xml:id="_j37cjPZ">There is a decrease in relative terms in the demand for capital goods and intermediate products from the most roundabout stages of consumption.</s><s xml:id="_teSQGTu">It further aggravates the latent problem of decreased accounting profits (and even losses) in the most roundabout stages of consumption.</s></p><p xml:id="_XdvTED9"><s xml:id="_A9xApyR">The indications of the bust result from the progressive destruction of the capital due to the ruined investment projects.</s><s xml:id="_WqhrqUM">At the same time, the banking system becomes insolvent.</s><s xml:id="_FCWtFN9">As <ref type="bibr">Young (2015, p. 205</ref>) says, "The inconsistencies mean that planned capital structures must be abandoned (e.g., half-built factories are left incomplete) and that roundabout consumption plans must be aborted (e.g., mortgages are defaulted on, homes are foreclosed on)".</s><s xml:id="_HFvCWBs">Accounting losses force entrepreneurs to paralyze, liquidate, or save as much as possible on unprofitable projects.</s><s xml:id="_6jvz9hs">The bust's final consequence is a costly liquidation as a contraction of entrepreneurial investment and consumer consumption, collapsing aggregate demand, and increasing unemployment.</s><s xml:id="_kYGVMjS">A recovery process will begin, such as restructuring prices and production, which will be painful depending on the degree of government coercive intervention in entrepreneurship and genuine savings accumulation.</s><s xml:id="_6mcRqkY">While a market economy is conducive to a healthy recovery, the central bank's further handling of interest rates induces another business cycle, upholding the stability-efficiency paradox. <ref type="foot" target="#foot_5">4</ref></s><s xml:id="_3AS4mWZ">he Austrian business cycle theory has its critics.</s><s xml:id="_DrMEmPe">It presents a different approach to that proposed by Keynesians and monetarists.</s><s xml:id="_JdQQ2Vg">These latter approaches suggest that it is a mistake to dismiss the role of economic policy in smoothing the business cycle <ref type="bibr" target="#b12">(Cerra et al., 2023)</ref>.</s><s xml:id="_fVbhwvU">On the one hand, Keynesian theory states that monetary policies are less effective than fiscal policies.</s><s xml:id="_DfwkrpG">On the other hand, the monetarist theory emphasizes the direct effect of monetary policies when determining fluctuations in the level of production.</s><s xml:id="_8dwnBu7">Both agree that the recession results from scarcity of money and high-interest rates, so the recovery requires increasing the money supply to reduce the interest rate <ref type="bibr" target="#b65">(Trotta Vianna, 2023)</ref>.</s><s xml:id="_7CcCtEY">However, the ABCT clarifies that the CBS system is economically unsustainable, setting the stage for fiat inflation and business cycles.</s><s xml:id="_JjSzaYF">Central bank credit expansion causes a gap between saving and investment, resulting in malinvestment and overconsumption.</s><s xml:id="_vaFk32c">The stability-efficiency thesis paradox emerges and requires empirical testing <ref type="bibr" target="#b6">(Bagus et al., 2018;</ref><ref type="bibr" target="#b52">Newman, 2020)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_kZmWxBD">Theoretical framework</head><p xml:id="_mwU8eTV"><s xml:id="_JXTgbmm">The ABCT addresses the central banking system's paradox, where any handling of the central bank's interest rates results from monetary policy to change the money supply.</s><s xml:id="_x6z7uFT">This handling distorts the market interest rate and sets off boom-and-bust cycles.</s><s xml:id="_JUksXeq">When the central bank raises the money supply to reduce the interest rate to stimulate aggregate demand, consumption and entrepreneurial plans will inevitably be inconsistent.</s><s xml:id="_FufTu74">However, the U.S. Federal Reserve's money stock measures, commonly used in economic and business forecasts, fail because they are not based on an explicit and coherent theoretical conception of the essence of money <ref type="bibr" target="#b58">(Salerno, 1987;</ref><ref type="bibr" target="#b62">Shostak, 2000;</ref><ref type="bibr" target="#b61">Sieroń, 2020)</ref>.</s></p><p xml:id="_gbJPWqr"><s xml:id="_aDNDzFK">Contrary to commodity money, whose quantities are ultimately determined by money supply and demand in the market process, the quantity of fiat money is always determined by the decisions of governments and central banks, regardless of the desires and actions of the money demanders.</s><s xml:id="_HR9czNC">Money is routinely accepted as the final means of payment for all market participants, meaning that fiat money can be borrowed and spent in terms of monetary and credit inflation, regardless of demand.</s><s xml:id="_UTvNH83">As <ref type="bibr">Shostak (2000, p. 69)</ref> states, "What determines whether money M1, M2, and the other Ms are valid definitions is how well they correlate with national income.</s><s xml:id="_rMg6gEQ">Most economists hold that, since the early 1980s, correlations between various definitions of money and national income have broken down".</s><s xml:id="_Y4gBtWM">The Ms infers that any combination of liquid assets will be classified as money if the combination passes the GDP correlation test.</s><s xml:id="_BhVNddh">Should any combination of liquidity be accepted as money?</s></p><p xml:id="_M25hXA4"><s xml:id="_B7NDr2Y">The existing money supply measures need a better understanding of the cause of business cycles.</s><s xml:id="_4pphJch">The concept of TMS was pioneered by the ABCT scholars Murray <ref type="bibr" target="#b56">Rothbard (1983)</ref> and Joseph <ref type="bibr" target="#b58">Salerno (1987)</ref> to represent the amount of money in the economy available for immediate use in exchange.</s><s xml:id="_UGWewQx">The TMS is an imperfect attempt to provide a statistical measure of money consistent with the theoretical definition of money as the general means of exchange in society.</s><s xml:id="_PpGeqfb">According to Rothbard and Salerno's approach, the familiar sets of Ms (M1, M2 and M3) calculated by central banks exclude some items identifiable as money and others lacking the essential property of a general medium of exchange.</s><s xml:id="_NPEXN3D">As a general medium of exchange, money is a universal commodity and is routinely accepted in exchanges in the market process.</s><s xml:id="_pc5k9Vd">In other words, money is the final payment method in all transactions.</s></p><p xml:id="_3tjymvJ"><s xml:id="_ZRDt2Ne">The benefits of TMS over conventional measures calculated by the Federal Reserve are that only money is immediately available as a medium of exchange and payment. <ref type="foot" target="#foot_6">5</ref></s><s xml:id="_ZfAT3xR">The TMS's empirical relevance provides a broader measure of the money available for spending and investment compared to narrow conventional measures like Ms. <ref type="foot" target="#foot_7">6</ref>First, the TMS includes some components of M1, such as fiat money held by the nonbank public, except for money held by the U.S. treasury and in the commercial values of the banks.</s><s xml:id="_7W8wGEM">Demand deposits or checking account balances at commercial banks are also included in TMS because the depositor or a third party designated by the depositor can claim the physical or cash standard.</s><s xml:id="_wEmZtPS">Traveler's checks issued by non-bank financial institutions, such as American Express or Visa, are excluded from TMS because they do not serve as the final means of payment for transactions.</s><s xml:id="_6GVaSus">For example, credit cards are not counted as part of the TMS.</s><s xml:id="_WBWxTdJ">Using a credit card to purchase a good does not ultimately discharge the debt created in the transaction.</s><s xml:id="_5BdaaHv">The card issuer must immediately pay the seller with money from the credit card owner.</s><s xml:id="_wQhrzpq">But then, the cardholder is obligated to make a monetary repayment of the debt to the issuer until the transaction is finally completed.</s></p><p xml:id="_vqKFFE8"><s xml:id="_GTw9CT3">Second, TMS includes some components of M2 not included in M1.</s><s xml:id="_XVcEvA9">Savings deposits are included in the TMS because they are part of sight deposits; that is, they are effectively withdrawable on demand by depositors in cash.</s><s xml:id="_jqfD2zH">The money market deposit accounts are considered part of the TMS, offering par value capability upon demand from depositors.</s><s xml:id="_T7jychG">In contrast, Money Market Mutual Funds (MMMF) and Small-denomination time deposits are not cashable on demand, so they are excluded from TMS.</s></p><p xml:id="_QGVbCjH"><s xml:id="_SZvrMf4">Third, TMS excludes components of M3 not included in M2.</s><s xml:id="_v2K6bJC">Large-denomination time deposits are excluded from TMS because they are not payable by the issuing institution before maturity.</s><s xml:id="_eFQdTvy">In the case of components of L not included in M3, the U.S. Savings Bonuses are included in TMS because they are instantly cashable in the U.S. Treasury or associated institutions in their redemption value.</s><s xml:id="_GFCsMPT">In contrast, short-term Treasury securities are not payable before maturity and are therefore excluded from TMS.</s></p><p xml:id="_wAaBcgG"><s xml:id="_35Vh2pk">Finally, the TMS includes three items that are not included by the Federal Reserve's measures of money supply (Ms) or average liquidity (L): demand for and other deposits held by the U.S. government, official foreign institutions, and foreign commercial banks in the U.S. commercial banks and central bank.</s><s xml:id="_s2uG2mc">Building on Rothbard and Salerno's description of TMS, this article proposes the following calculation using time-series data available on the Federal Reserve Bank of St. Louis (FRED ® ) platform:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_AFpjBRp">𝑇𝑀𝑆 = 𝑀2𝑁𝑆 -𝑇𝑉𝐶𝐾𝑆𝑁𝑆 -𝑆𝑇𝐷𝑁𝑆 -𝑅𝑀𝐹𝑁𝑆 + 𝑇𝑅𝐸𝐴𝑆𝑈𝑅𝑌</head><p xml:id="_ZDPjjwn"><s xml:id="_4U5sP3d">The equation shows the codes required to download the time series from FRED ® , where TMS is True Money Supply, M2NS is M2, TVCKSNS are Travelers Checks, STDNS are Small-Denomination Time Deposits, RMFNS are Retail Money Market Funds, and TREASURY are Treasury Deposits with Federal Reserve Banks.</s><s xml:id="_ntDue6h">This money supply metric differs from M2 as it encompasses Treasury deposits at the Fed while excluding short-time deposits and retail money funds.</s><s xml:id="_MVqKhYg">This model is consistent with other recent empirical work on the ABCT (see, for example, <ref type="bibr" target="#b46">Luther &amp; Cohen, 2014;</ref><ref type="bibr" target="#b50">Mroz &amp; Hardt, 2020;</ref><ref type="bibr" target="#b30">Griggs &amp; Murphy, 2021)</ref>.</s><s xml:id="_5DYnzMu">They focus on interest rate and GDP changes rather than the TMS components because the interest rate is the most visible sign of understanding the emergence of the business cycle, overlooking the link between the real and monetary aspects of the cycle.</s><s xml:id="_jckt4En">The TMS model can enrich the academic debate on the alternatives to Ms, such as MZM, exploring the cause of interest rate handling that lies in the TMS changes <ref type="bibr">(Alonso &amp; Bayon, 2023)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_hWMA3AH">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1." xml:id="_V4e5Uqf">The true money supply as a leading indicator of the business cycle</head><p xml:id="_tewRWFP"><s xml:id="_DW2SXHf">This section tests the stability-efficiency thesis paradox by analyzing and discussing the link between the True Money Supply (TMS) and the U.S. business cycle (proxied by the year-on-year real GDP growth rate).</s><s xml:id="_PnWqtyh">It uses the FRED ® 's time series data between the first quarter of 1975 and the fourth quarter of 2022.</s><s xml:id="_WpNCtMk">As explained in the previous sections, the TMS and its interaction with the behavior of bank credit are crucial in the formation and evolution of expansive and recessive business cycles.</s><s xml:id="_dAnWPMM">Graph 1 illustrates the TMS and M2 monetary aggregate behavior in the United States.</s><s xml:id="_HXgN2Fv">The black curve is the TMS and the red curve is the M2.</s><s xml:id="_yrKwAMQ">The blue curves reflect the TMS trend during the boom-and-bust phases of the business cycle.</s><s xml:id="_2xzyAdh">While the white areas of the graph correspond to boom periods, the gray areas correspond to bust periods.</s></p><p xml:id="_MevfySM"><s xml:id="_HByAfpM">In line with the ABCT, Graph 1 shows a remarkable qualitative relationship between the year-on-year (y-o-y) growth rates of the TMS (in quarterly data) and the recessionary periods (corresponding to the grey areas of the chart) experienced in the U.S. economy since 1975 to the present.</s><s xml:id="_4tzFtrY">The recessive stages of the business cycle follow a significant slowdown in the annual growth rate of the TMS, which, in some cases, reaches negative values.</s></p><p xml:id="_qCpffrP"><s xml:id="_8bUKrN6">Graph 1.</s><s xml:id="_Rsuzv6W">The TMS and M2 during the different phases of the U.S. business cycle.</s><s xml:id="_DN8JsnM">Source: Own elaboration with data from FRED ® .</s></p><p xml:id="_8NnA6ud"><s xml:id="_m8XVzNJ">On the other hand, the TMS tends to increase in the recessionary phases of the business cycle and at the beginning of economic expansions (white areas in the graph).</s><s xml:id="_T5Qtnd4">The increasing trend of TMS is attributed to two interconnected factors.</s><s xml:id="_WAnN7tu">First, at the beginning of boom cycles, the CBS amplifies the money supply with its ability to create fiat money through lending.</s><s xml:id="_nGbJT59">Second, official interest rates are artificially low during these periods due to countercyclical monetary policies, which stimulate the demand for credit and the expansion of spending <ref type="bibr" target="#b30">(Griggs &amp; Murphy, 2021;</ref><ref type="bibr" target="#b18">Espinosa et al., 2021;</ref><ref type="bibr">Alonso &amp; Bayon, 2023)</ref>.</s></p><p xml:id="_ZmrRXnf"><s xml:id="_Dt7EEBY">The TMS handling distorts the production structure.</s><s xml:id="_VWX2kkN">During boom periods, investments backed by cheap and abundant credit aim to promote unsustainable projects in the long term, which result in malinvestment, misallocation of resources, and distortions in the production structure.</s><s xml:id="_dtZbHka">Factors such as uncertainty, the worsening financial situation of borrowers and the growing risk of default trigger a reduction in bank credit and, therefore, a significant drop in the TMS.</s><s xml:id="_rfg3vM3">The credit restriction accelerates the fall in investment and consumption, deepening the economic crisis in the United States.</s><s xml:id="_zUBM3Kk">As explained above, it is interesting to note that there is not such a significant drop in the behavior of the M2 in the shift from boom to bust.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2." xml:id="_JVFEEqj">The causal relationship between the TMS and the real GDP</head><p xml:id="_5G6YRhc"><s xml:id="_4FA9pXs">The TMS generates reasonably robust signals of economic activity and can serve as a practical leading indicator of impending recessions.</s><s xml:id="_swmgZ3C">It is now necessary to empirically test the relationship between the y-o-y growth rates of the TMS and the real Gross Domestic Product (RGDP) to verify if there is a causal relationship between the central bank's money and credit handling and production.</s><s xml:id="_UBdyCss">Graph 2 shows that, with some lag, RGDP movements follow changes in the TMS (see red arrows) in the same direction.</s></p><p xml:id="_rgFywqX"><s xml:id="_D46A7C3">Graph 2. The TMS and the real GDP in the U.S.: 1975Q1-2022Q4 (y-o-y growth rates).</s><s xml:id="_7Ep5Y48">Source: Own elaboration with data from FRED ® .</s></p><p xml:id="_7vtrxgA"><s xml:id="_8Gewvhj">The Granger causality test (GCT) examines the causal relationship between the TMS and the RGDP and whether it has a unidirectional or bidirectional result.</s><s xml:id="_uaw9uA2">Specifically, the GCT reveals if one time series helps forecast another.</s><s xml:id="_YhqrRhp">After confirming the stationarity (I(0)) of both series at the 5% significance level to ensure the robustness of the model, the relationship between the TMS and the RGDP is studied.</s><s xml:id="_8v8MDu8">As the ABCT describes, Table <ref type="table" target="#tab_0">1</ref> shows that the TMS unidirectionally causes RGDP performance at the 5% significance level but not the other way around (except for lags 1, 4, and 5).</s></p><p xml:id="_eWzk2y5"><s xml:id="_nMMhdJw">The next step is to estimate a first-order vector autoregressive model (VAR(1)) with a constant term, where the appropriate lag order is defined by using conventional information criteria (Akaike and Schwarz) to assess the two-way causality between both variables.</s><s xml:id="_VRA2KmK">The results of the model are given in Table <ref type="table" target="#tab_1">2</ref>. Standard unit root test results outline the stability of the VAR model.</s><s xml:id="_FePgd9w">The model is stationary and satisfies the stability condition, as each root module is below 1.0, and no roots lie outside the unit circle (Graph 3).</s><s xml:id="_6pS4HnK">The VAR estimates confirm the results of Table <ref type="table" target="#tab_0">1</ref>, namely, changes in TMS affect RGDP.</s><s xml:id="_pu4vJ6M">The first lag of RGDP growth has a statistically significant negative impact on the TMS, which suggests the countercyclical use of the Reserve's monetary policy.</s></p><p xml:id="_ay6TRPF"><s xml:id="_3HvnH2y">Finally, the impulse-response function (HRF) is examined to describe the reaction of endogenous macroeconomic variables, such as the TMS and the RGDP, at the moment of the shock and subsequent moments.</s><s xml:id="_JEqBEFM">Recognizing the shape of the HRF is essential for several reasons, including because it provides better statistical models of the data.</s><s xml:id="_3xP4Wst">The HRF explains how the "shock" caused by one standard deviation (or one change per unit) would affect each variable's current or future values in the VAR models.</s></p><p xml:id="_6ttVEKA"><s xml:id="_aJy666P">Graph 4 reveals that a positive shock to TMS has a statistically significant positive impact on RGDP.</s><s xml:id="_4ZeQ3TU">However, this effect tends to dissipate after five quarters and even become negative.</s><s xml:id="_GcRHrN4">This outcome is consistent with the ABCT, which explains how monetary expansions, accompanied by lending that exceeded the voluntary saving rate, lead to a boomand-bust cycle behind the followed point<ref type="foot" target="#foot_8">foot_8</ref> .</s><s xml:id="_Mk4kdTJ">Graph 4 also shows that a rise in RGDP has an early and statistically significant negative impact on TMS.</s><s xml:id="_UrdzgyM">However, attributed to the countercyclical use of monetary policy, this effect tends to dissipate over time.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3." xml:id="_YbQxWVa">Policy implications</head><p xml:id="_WdcpKEW"><s xml:id="_MvmCvmZ">The previous results suggest that the TMS is a good indicator of the different phases of the business cycle because it can anticipate the variations of the RGDP.</s><s xml:id="_AP7jW8a">The close link between the TMS and the GDPR is consistent with the Keynesian and monetarist approaches to the business cycle.</s><s xml:id="_mPG9pDm">On the one hand, monetary and credit inflation increases aggregate demand in the short term, as indicated by the Keynesians.</s><s xml:id="_gPTQxzq">On the other hand, monetary policies can alter output fluctuations, as monetarists suggest.</s><s xml:id="_YUhUw7T">However, the previous results confirm the paradox of the CBS stability-efficiency thesis as indicated by the ABCT.</s><s xml:id="_zkgX5Hp">The expansionary monetary policy can increase the TMS and thus reduce interest rates, causing a boom in the short term and inducing an inflationary spiral.</s><s xml:id="_pCUBg3E">When that interest rate cannot be maintained over time because there are no savings to justify it, the TMS falls, the interest rate rises, and the wrong investments are liquidated.</s><s xml:id="_MmvMxF8">Monetary policy may turn tight to contain inflation, deepening a long-term financial crisis and economic recession.</s></p><p xml:id="_4RkGC7z"><s xml:id="_wWpv2ux">The most important lesson of the ABCT and the TMS-based model is that the stability-efficiency thesis is paradoxical because CBS causes business cycles <ref type="bibr" target="#b61">(Sieroń, 2020)</ref>.</s><s xml:id="_HsfU7Gm">Fiat money is inflationary due to the monetary policy, which benefits some at the expense of many others and triggers business cycles of boom and bust.</s><s xml:id="_TW3YUzg">First, the central bank is a legal monopoly.</s><s xml:id="_K8j7qZR">Legal tender laws force agents to use money issued by the central bank, creating a moral hazard problem.</s><s xml:id="_Rd9vAXP">If the central bank has the discretion and power to handle the interest rate, it can lower interest rates to stimulate the economy and reduce unemployment in the short term.</s><s xml:id="_XWZRC2G">But CBS implies controlling interest rates and, as with any price control, pricing will inevitably be uncoordinated.</s><s xml:id="_4FnhtCX">If not, central bankers must first know and articulate: 1) the past, present, and future subjective valuations and the temporal preference rate of all individuals; 2) changes in the asset endowment, capital accumulation, amortization rates, and technology of all current and future businesses; and 3) control inflation expectations (see <ref type="bibr" target="#b53">Paniagua, 2023)</ref>.</s><s xml:id="_y9A98Eh">Accordingly, an optimal monetary policy is impossible.</s></p><p xml:id="_hjqdxAh"><s xml:id="_xp938qE">Second, the call for a central bank as a lender of last resort (LOLR) is one of the main reasons for its existence.</s><s xml:id="_CMrWkdh">Any willingness by a central bank to bail out troubled institutions adds another moral hazard: For prisoner's dilemma, the best answer is that banks take shortterm deposits and lend long-term for additional benefits, socializing the costs of their bad decisions <ref type="bibr" target="#b66">(Van Den Hauwe, 2008)</ref>.</s><s xml:id="_fJDxKeK">Banks will take short-term deposits and lend long-term for additional benefits, socializing the costs of their bad decisions.</s><s xml:id="_WreAdtm">The TMS-based model shows that even monetary rules in the U.S. did not smooth business cycles <ref type="bibr" target="#b64">(Taylor, 2019)</ref>.</s><s xml:id="_a4RCQK2">In a nutshell, there is no credible solution to the CBS paradox short of the abolition of the central bank.</s></p><p xml:id="_t8kzhFB"><s xml:id="_MCpNRsE">The free banking system (FBS) theory guides policy reform to avoid business cycles with no central bank, no LOLR, no government deposit insurance, and no financial system regulation (Huerta de Soto, 2020).</s><s xml:id="_RNbVSWN">The transition from CBS to FBS consists of three steps.</s><s xml:id="_sh6HFJY">The first is monetary freedom, also called currency competition, which means abolishing the legal tender laws.</s><s xml:id="_KS6z8cU">Suppose the central bank inflates money and credit above the stock of savings.</s><s xml:id="_dDdrMRQ">In that case, agents can, recognizing a policy-induced economic cycle, escape to a sounder currency as a hedge, smoothing biases in the money and credit markets.</s><s xml:id="_hh4JWdy">The second step is to repeal the banking legislation, replacing the fractional reserve with 100% reserves of demand deposits following private property law.</s><s xml:id="_qcTYZG4">The risk of "lending deposits" and business cycles disappear because the market interest rate will match the natural or Wicksellian interest rate.</s><s xml:id="_BZfZvxf">Monetary policy loses utility: money supply and demand in the loanable funds market will determine the TMS and the interest rate.</s><s xml:id="_VF5FCfZ">The last step then involves liquidating the central bank and the other institutions dedicated to handling the financial and banking markets.</s></p><p xml:id="_m98ps3t"><s xml:id="_fBQ9Se8">The most widespread criticism of the FBS is that free banks can act as cartels to produce a concerted monetary and credit expansion <ref type="bibr" target="#b22">(Fiebiger &amp; Lavoie, 2020;</ref><ref type="bibr" target="#b65">Trotta Vianna, 2023</ref>).</s><s xml:id="_QvQzSVH">Yet, anticompetitive collusion is difficult in a free market because potential accomplices cannot force others to cooperate.</s><s xml:id="_NkJgjvK">Critics also neglect the fact that free banks cannot sustain a significant expansion because, first, they would operate with a 100% reserve of demand deposits and, second, if they recurrently refinanced by other means in the market, it could weaken their reserves and expose them to runs <ref type="bibr" target="#b66">(Van Den Hauwe, 2008)</ref>.</s><s xml:id="_ZJtq94b">Free banks can seek other ways to expand credit and refinancing without fractional reserves in a market economy through investment or debt (Huerta de Soto, 2020).</s><s xml:id="_JAjpzXm">Critics should reply that no free bank would want to expose itself to the risk of other free banks failing and compromising its situation because there is no LOLR <ref type="bibr" target="#b23">(Foss et al., 2019;</ref><ref type="bibr" target="#b45">Lewin &amp; Cachanosky, 2019)</ref>.</s><s xml:id="_HSDzt42">Even then, if a bank or group of banks acts irresponsibly and goes bankrupt, it will not jeopardize the entire financial system or taxpayers like CBS does.</s><s xml:id="_GDmsjHt">Finally, increasing the savings stock depends on whether institutions facilitate or hinder it.</s><s xml:id="_zU8FgZV">Institutions of secure property rights facilitate savings accumulation and, in turn, develop more favorable credit conditions than otherwise <ref type="bibr" target="#b0">(Acemoglu &amp; Robinson, 2019;</ref><ref type="bibr" target="#b18">Espinosa et al., 2021)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_wPx52Qk">Conclusion</head><p xml:id="_hEvSkD5"><s xml:id="_YUfBXan">Monetary theory usually assumes a central banking system (CBS) as a starting point to achieve stability and efficiency in the financial system.</s><s xml:id="_em5QNwb">The Austrian business cycle theory (ABCT) questions the stability-efficiency thesis, arguing that the CBS paradox consists of causing business cycles by handling the interest rate.</s><s xml:id="_X2uyc83">The interest rate depends on the savings stock in the loanable funds market.</s><s xml:id="_mrNGkAj">The central bank's interest rate handling outside the savings stock causes intertemporal discoordination.</s><s xml:id="_SNhcnrg">Malinvestment and overconsumption induce a short-term boom at the cost of a long-term financial crisis and economic recession.</s><s xml:id="_6RwmSDX">This paper developed a True Money Supply (TMS) based model to represent the economy's money available for immediate use in exchange.</s><s xml:id="_jAquvg8">Using data from the United States between 1975 and 2022, this model empirically analyzed how changes in TMS are directly related to changes in real GDP.</s><s xml:id="_2trjWFK">The results showed that the TMS relationship is a significant measure to explain the different phases of the business cycle.</s></p><p xml:id="_2skapfm"><s xml:id="_HmDfGYE">Furthermore, the paper explained that there is no credible solution to the CBS paradox short of liquidating the central bank.</s><s xml:id="_kcMb2RA">It proposed a guide to policy reform based on the free banking system (FBS) to avoid business cycles.</s><s xml:id="_s6J6CWd">Further research on a detailed guide to policy reform to transition from a CBS to an FBS is required, along with developing the TMS-based model to illustrate ABCT empirically in other countries.</s><s xml:id="_5ezXyNe">H0 is accepted: RGDP does not Granger-cause TMS for all the lags from 1 to 10 except for lags 1, 4 and 5. * H0 could be rejected at the 0.10 level of significance for lags 6 and 7.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_aRDeGFK">Appendix</head><p xml:id="_tw4FG8Q"><s xml:id="_t5vdn76">Source: Own elaboration with data from FRED ® .</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p xml:id="_S6Zs65d"></p></div></figDesc><graphic coords="8,73.88,278.23,447.53,279.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc><div><p xml:id="_FUwxXnU"></p></div></figDesc><graphic coords="9,71.00,280.64,453.26,274.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc><div><p xml:id="_ehdMWvr"><s xml:id="_QGFU9Y2">The Granger causality test between TMS and RGDP</s></p></div></figDesc><table><row><cell cols="2">Pairwise Granger Causality Tests</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Sample: 1975Q1 2023Q2 (quarterly data)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">H0: TMS does not Granger Cause RGDP</cell><cell></cell><cell cols="2">H0: RGDP does not Granger Cause TMS</cell></row><row><cell>Lags</cell><cell>F-Statistic</cell><cell>p-value</cell><cell>Lags</cell><cell>F-Statistic</cell><cell>p-value</cell></row><row><cell>1</cell><cell>32.3293</cell><cell>0.0000</cell><cell>1</cell><cell>41.8172</cell><cell>0.0000</cell></row><row><cell>2</cell><cell>15.9674</cell><cell>0.0000</cell><cell>2</cell><cell>2.52325</cell><cell>0.0829</cell></row><row><cell>3</cell><cell>10.8786</cell><cell>0.0000</cell><cell>3</cell><cell>1.99651</cell><cell>0.1161</cell></row><row><cell>4</cell><cell>7.11694</cell><cell>0.0000</cell><cell>4</cell><cell>2.43859</cell><cell>0.0487</cell></row><row><cell>5</cell><cell>8.64013</cell><cell>0.0000</cell><cell>5</cell><cell>2.75739</cell><cell>0.0200</cell></row><row><cell>6</cell><cell>6.98608</cell><cell>0.0000</cell><cell>6</cell><cell>2.10625</cell><cell>0.0548 *</cell></row><row><cell>7</cell><cell>6.01491</cell><cell>0.0000</cell><cell>7</cell><cell>2.03607</cell><cell>0.0532 *</cell></row><row><cell>8</cell><cell>4.97120</cell><cell>0.0000</cell><cell>8</cell><cell>1.56284</cell><cell>0.1394</cell></row><row><cell>9</cell><cell>4.48632</cell><cell>0.0000</cell><cell>9</cell><cell>1.61743</cell><cell>0.1139</cell></row><row><cell>10</cell><cell>3.50103</cell><cell>0.0003</cell><cell>10</cell><cell>1.08674</cell><cell>0.3753</cell></row><row><cell cols="3">H0 is rejected: TMS Granger-causes RGDP at least</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">with a 0.05 level of significance for all the lags</cell><cell></cell><cell></cell><cell></cell></row><row><cell>from 1 to 10.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc><div><p xml:id="_KgnjRpu"><s xml:id="_rdRvqFg">Vector Autoregressive (VAR) Model Model 1. VAR with constant term in RGDP equation Model 2. VAR without constant term in RGDP equation Source: Own elaboration with data from FRED ® .</s></p></div></figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p xml:id="_dk8RQGV"><s xml:id="_3BSfS54">The label "Austrian" usually denotes: "1) subjectivism, as applied to both values and expectations; and</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p xml:id="_n6MuyNK"><s xml:id="_F5Gdmmd">2) methodological individualism with its emphasis on the differences among individualsdifferences that account for the give and take of the marketplace and the very nature of the market process"(Garrison, 2001, p. 33).</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_2"><p xml:id="_bR2sSke"><s xml:id="_aSUZdrF">Inflation is the excess supply of money.</s><s xml:id="_bVwJ9sj">When the money supply increases and/or the demand for money falls, the purchasing power of money decreases.</s><s xml:id="_3wGS8nW">As a result, relative prices tend to increase<ref type="bibr" target="#b5">(Bagus et al., 2014)</ref>.</s><s xml:id="_8pMTvjE">Inflation imposes direct and indirect costs.</s><s xml:id="_NpcSmjW">The former implies that inflation tends to undermine the coordination properties of the price system, and the latter implies that agents tend to divert resources from satisfying needs to prevent or cope with increased uncertainty<ref type="bibr" target="#b38">(Horwitz, 2003)</ref>.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p xml:id="_5HXtYS6"><s xml:id="_kWdMFsY">Economics &amp; Sociology, Vol. 16, No. 4, 2023</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_4"><p xml:id="_Wb8TbP3"><s xml:id="_ARNccKY"><ref type="bibr" target="#b41">Hülsmann (2002)</ref> explains that gross interest is made up of the pure element (variation in time preferences), the risk premium for each specific loan operation (depending on possible default), and the premium for the estimated change in purchasing power of money (expected inflation or deflation).</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_5"><p xml:id="_8gKVqVZ"><s xml:id="_kg5M8kG"><ref type="bibr" target="#b44">Lee et al. (2020)</ref>,<ref type="bibr" target="#b19">Espinosa and</ref> Véjar (2023), and<ref type="bibr" target="#b19">Espinosa (2023)</ref> provide recent analyses on the influence of lax economic policy on the business cycle.</s><s xml:id="_J7P6FbZ">The Hodrick-Prescott filter extracted the business and credit cycles from real gross domestic product and credit to the nonfinancial private sector.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_6"><p xml:id="_N3Msepz"><s xml:id="_8x7tYMe">The TMS is very similar in conception and content to the Money Zero Maturity (MZM) calculated and reported by the Federal Reserve Bank of St. Louis until February 2021 due to the pending update in the measurement of the money market funds component.</s><s xml:id="_pSVVPrZ">The MZM measure of money includes all the monetary instruments with zero maturity (see FRED ® , 2023).</s><s xml:id="_uBBNzQz">The main difference is that TMS excludes all money market mutual fund stocks, while MZM includes them.</s><s xml:id="_csfSarB">However, they coincide in including savings deposits and money market deposit accounts in addition to items in M1, excluding small-time deposits(Salerno, 2010, p. 70).</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_7"><p xml:id="_tSWRn6J"><s xml:id="_ftDHyVB">By focusing on this key feature of money, TMS excludes assets that might be considered money substitutes but do not fulfill the role of a final means of payment.</s><s xml:id="_XDTsv8g">In this regard,Salerno (1987, p. 1)  claims that existing money supply measures, such as M1 or M2, "tend to impede, rather than to facilitate, a clear understanding of the past or future development of actual economic events".</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7" xml:id="foot_8"><p xml:id="_rYEXegY"><s xml:id="_tKygsvS">The divergence of the interest rate structure from the natural or Wicksellian interest rate means that the RGDP expansion is unsustainable and must end in recession.</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_U36DThe">Acknowledgement</head><p xml:id="_MhAXtKh"><s xml:id="_u7kyDuV">For their valuable comments, we thank the two reviewers and the participants of the <rs type="institution">Human Action Seminar at Universidad del Desarrollo (Chile)</rs>.</s><s xml:id="_BeB38CT">The usual caveat applies.</s></p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_85DPBNa" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_MDSqqqz">Rents and economic development: the perspective of Why Nations Fail</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Acemoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11127-019-00645-z</idno>
+		<ptr target="https://doi.org/10.1007/s11127-019-00645-z" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pDJDZWZ">Public Choice</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="13" to="28" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Acemoglu, D., &amp; Robinson, J. A. (2019). Rents and economic development: the perspective of Why Nations Fail. Public Choice, 181(1), 13-28. https://doi.org/10.1007/s11127-019-00645-z</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_UsGFDef">The yield curve as a leading indicator of recessions: Austrian Economics insights</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sánchez</surname></persName>
+		</author>
+		<idno type="DOI">10.2298/PAN230217018A</idno>
+		<ptr target="https://doi.org/10.2298/PAN230217018A" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vrPVDne">Panoeconomicus</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alonso, M. A., &amp; Sánchez, A. (2023). The yield curve as a leading indicator of recessions: Austrian Economics insights. Panoeconomicus, 1-23. https://doi.org/10.2298/PAN230217018A</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_9Sq2Y96">The continuing continuum problem of deposits and loans</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bagus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Howden</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10551-011-0996-5</idno>
+		<ptr target="https://doi.org/10.1007/s10551-011-0996-5" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gXcqkUb">Journal of Business Ethics</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="295" to="300" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bagus, P., &amp; Howden, D. (2012). The continuing continuum problem of deposits and loans. Journal of Business Ethics, 106, 295-300. https://doi.org/10.1007/s10551-011-0996-5</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_UmcZTNH">Some ethical dilemmas of modern banking</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bagus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Howden</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/beer.12025</idno>
+		<ptr target="https://doi.org/10.1111/beer.12025" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wrFWbhK">Business Ethics: A European Review</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="235" to="245" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bagus, P., &amp; Howden, D. (2013). Some ethical dilemmas of modern banking. Business Ethics: A European Review, 22(3), 235-245. https://doi.org/10.1111/beer.12025</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_tEY23p6">Deposits, Loans, and Banking: Clarifying the Debate</title>
+		<author>
+			<persName><forename type="first">Philipp</forename><surname>Bagus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Howden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Walter</forename><surname>Block</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ajes.12023</idno>
+		<ptr target="https://doi.org/10.1111/ajes.12023" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_f9pMwyh">American Journal of Economics and Sociology</title>
+		<title level="j" type="abbrev">Am J Econ Sociol</title>
+		<idno type="ISSN">0002-9246</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="627" to="644" />
+			<date type="published" when="2013-07">2013</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bagus, P., Howden, D., &amp; Block, W. (2013). Deposits, loans, and banking: clarifying the debate. American Journal of Economics and Sociology, 72(3), 627-644. https://doi.org/10.1111/ajes.12023</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_fzcdmy6">Causes and consequences of inflation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bagus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Howden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gabriel</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/basr.12043</idno>
+		<ptr target="https://doi.org/10.1111/basr.12043" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sg724T8">Business and Society Review</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="497" to="517" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bagus, P., Howden, D., &amp; Gabriel, A. (2014). Causes and consequences of inflation. Business and Society Review, 119(4), 497-517. https://doi.org/10.1111/basr.12043</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main" xml:id="_gdgWfAu">Entrepreneurial Error Does Not Equal Market Failure</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bagus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Howden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huerta De Soto</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10551-016-3123-9</idno>
+		<ptr target="https://doi.org/10.1007/s10551-016-3123-9" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_e2ahYRA">Journal of Business Ethics</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="433" to="441" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bagus, P., Howden, D., &amp; Huerta de Soto, J. (2018). Entrepreneurial Error Does Not Equal Market Failure. Journal of Business Ethics, 149(2), 433-441. https://doi.org/10.1007/s10551-016-3123- 9</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_Z2922nY">Keynes on central banking and the structure of monetary policy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bibow</surname></persName>
+		</author>
+		<idno type="DOI">10.1215/00182702-34-4-749</idno>
+		<ptr target="https://doi.org/10.1215/00182702-34-4-749" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jvTkkH8">History of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="749" to="787" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bibow, J. (2002). Keynes on central banking and the structure of monetary policy. History of Political Economy, 34(4), 749-787. https://doi.org/10.1215/00182702-34-4-749</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_2udwD94">Economic Theory in Retrospect</title>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Blaug</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/cbo9780511805639</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Ag7wUWE">Economic theory in retrospect</title>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1997-03-27">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blaug, M. (1997). Economic theory in retrospect. Cambridge, MA.: Cambridge University Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main" xml:id="_JXHKJJ8">The consequences of Keynes</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Boettke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Newman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BBhZcJT">Journal of Markets and Morality</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="155" to="164" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boettke, P. J., &amp; Newman, P. (2017). The consequences of Keynes. Journal of Markets and Morality, 20(1), 155-64.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main" xml:id="_F6qf6wP">Contract theory</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dewatripont</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>The MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bolton, P., &amp; Dewatripont, M. (2004). Contract theory. Cambridge, MA.: The MIT Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_gtsBm3Z">Subjective value in entrepreneurship</title>
+		<author>
+			<persName><forename type="first">Per</forename><forename type="middle">L</forename><surname>Bylund</surname></persName>
+			<idno type="ORCID">0000-0002-4332-6495</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Packard</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11187-021-00451-2</idno>
+		<ptr target="https://doi.org/10.1007/s11187-021-00451-2" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kpAKpsd">Small Business Economics</title>
+		<title level="j" type="abbrev">Small Bus Econ</title>
+		<idno type="ISSN">0921-898X</idno>
+		<idno type="ISSNe">1573-0913</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1243" to="1260" />
+			<date type="published" when="2022">2022</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bylund, P. L., &amp; Packard, M. D. (2022). Subjective value in entrepreneurship. Small Business Economics, 58(3), 1243-1260. https://doi.org/10.1007/s11187-021-00451-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main" xml:id="_3gyk2Q6">Hysteresis and Business Cycles</title>
+		<author>
+			<persName><forename type="first">Valerie</forename><surname>Cerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Fatás</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sweta</forename><forename type="middle">C</forename><surname>Saxena</surname></persName>
+		</author>
+		<idno type="DOI">10.1257/jel.20211584</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wFAyRCR">Journal of Economic Literature</title>
+		<title level="j" type="abbrev">Journal of Economic Literature</title>
+		<idno type="ISSN">0022-0515</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="181" to="225" />
+			<date type="published" when="2023-03-01">2023</date>
+			<publisher>American Economic Association</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cerra, V., Fatás, A., &amp; Saxena, S. C. (2023). Hysteresis and business cycles. Journal of Economic Literature, 61(1), 181-225. DOI: 10.1257/jel.20211584</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_DrGfcGY">The role of fractional-reserve banking and financial intermediation in the money supply process: Keynes and the Austrians</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">P</forename><surname>Cochran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">T</forename><surname>Call</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12113-998-1015-2</idno>
+		<ptr target="https://doi.org/10.1007/s12113-998-1015-2" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Su9UMv2">The Quarterly Journal of Austrian Economics</title>
+		<title level="j" type="abbrev">Quart J Austrian Econ</title>
+		<idno type="ISSN">1098-3708</idno>
+		<idno type="ISSNe">1936-4806</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="29" to="40" />
+			<date type="published" when="1998-09">1998</date>
+			<publisher>Mises Institute</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cochran, J. P., &amp; Call, S. T. (1998). The role of fractional-reserve banking and financial intermediation in the money supply process: Keynes and the Austrians. Quarterly Journal of Austrian Economics, 1(3), 29-40. https://doi.org/10.1007/s12113-998-1015-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cowen</surname></persName>
+		</author>
+		<title level="m" xml:id="_qjJnhrS">Risk and business cycles: New and old Austrian perspectives</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cowen, T. (1998). Risk and business cycles: New and old Austrian perspectives. New York, NY.: Routledge.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_YdZm5NP">The triumph of Keynes: what now for monetary policy research?</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dalziel</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01603477.2002.11490341</idno>
+		<ptr target="https://doi.org/10.1080/01603477.2002.11490341" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QgqRuPx">Journal of Post Keynesian Economics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="511" to="527" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dalziel, P. (2002). The triumph of Keynes: what now for monetary policy research?. Journal of Post Keynesian Economics, 24(4), 511-527. https://doi.org/10.1080/01603477.2002.11490341</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_a5XWb5Y">Central bank mandates, sustainability objectives and the promotion of green finance</title>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Dikau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ulrich</forename><surname>Volz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ecolecon.2021.107022</idno>
+		<ptr target="https://doi.org/10.1016/j.ecolecon.2021.107022" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cCRMyjQ">Ecological Economics</title>
+		<title level="j" type="abbrev">Ecological Economics</title>
+		<idno type="ISSN">0921-8009</idno>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page">107022</biblScope>
+			<date type="published" when="2021-06">2021</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dikau, S., &amp; Volz, U. (2021). Central bank mandates, sustainability objectives and the promotion of green finance. Ecological Economics, 184, 107022. https://doi.org/10.1016/j.ecolecon.2021.107022</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_bRyuR6D">Income distribution, credit and fiscal policies in an agent-based Keynesian model</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fagiolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Napoletano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roventini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jedc.2012.11.008</idno>
+		<ptr target="https://doi.org/10.1016/j.jedc.2012.11.008" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FqS58Cc">Journal of Economic Dynamics and Control</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1598" to="1625" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dosi, G., Fagiolo, G., Napoletano, M., &amp; Roventini, A. (2013). Income distribution, credit and fiscal policies in an agent-based Keynesian model. Journal of Economic Dynamics and Control, 37(8), 1598-1625. https://doi.org/10.1016/j.jedc.2012.11.008</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_Y8k5szQ">Principles of Sustainable Economic Growth and Development: A Call to Action in a Post-COVID-19 World</title>
+		<author>
+			<persName><forename type="first">Victor</forename><forename type="middle">I</forename><surname>Espinosa</surname></persName>
+			<idno type="ORCID">0000-0002-2481-5082</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Miguel</forename><forename type="middle">A</forename><surname>Alonso Neira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jesús</forename><surname>Huerta De Soto</surname></persName>
+			<idno type="ORCID">0000-0002-8358-1220</idno>
+		</author>
+		<idno type="DOI">10.3390/su132313126</idno>
+		<ptr target="https://doi.org/10.3390/su132313126" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nGwCe8x">Sustainability</title>
+		<title level="j" type="abbrev">Sustainability</title>
+		<idno type="ISSNe">2071-1050</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page">13126</biblScope>
+			<date type="published" when="2021-11-26">2021</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Espinosa, V. I., Alonso Neira, M. A., &amp; Huerta de Soto, J. (2021). Principles of sustainable economic growth and development: A call to action in a post-COVID-19 world. Sustainability, 13(23), 13126. https://doi.org/10.3390/su132313126</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_uQPaY6J">The perils of lax economic policy: The case of Chile during the COVID-19 pandemic</title>
+		<author>
+			<persName><forename type="first">Victor</forename><forename type="middle">I</forename><surname>Espinosa</surname></persName>
+			<idno type="ORCID">0000-0002-2481-5082</idno>
+		</author>
+		<idno type="DOI">10.1007/s11138-023-00619-x</idno>
+		<ptr target="https://doi.org/10.1007/s11138-023-00619-x" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BkACCcT">The Review of Austrian Economics</title>
+		<title level="j" type="abbrev">Rev Austrian Econ</title>
+		<idno type="ISSN">0889-3047</idno>
+		<idno type="ISSNe">1573-7128</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="293" to="310" />
+			<date type="published" when="2023-03-11">2023</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Espinosa, V. I. (2023). The perils of lax economic policy: The case of Chile during the COVID-19 pandemic. Review of Austrian Economics, 1-18. https://doi.org/10.1007/s11138-023-00619-x</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main" xml:id="_WaWjzsB">Macroeconomic populism in Chile: Allende and the recession of 1973</title>
+		<author>
+			<persName><forename type="first">Victor</forename><forename type="middle">I</forename><surname>Espinosa</surname></persName>
+			<idno type="ORCID">0000-0002-2481-5082</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Viviana</forename><surname>Véjar</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0212610925100566</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gC4Hyym">Revista de Historia Económica / Journal of Iberian and Latin American Economic History</title>
+		<title level="j" type="abbrev">RHE / JILAEH</title>
+		<idno type="ISSN">0212-6109</idno>
+		<idno type="ISSNe">2041-3335</idno>
+		<imprint>
+			<biblScope unit="page" from="1" to="28" />
+			<date type="published" when="2024">2024</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Espinosa, V. I., &amp; Véjar, V. (2024). Macroeconomic populism in Chile: Allende and the recession of 1973. Revista de Historia Economica (Forthcoming).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_CuHvb2r">Was Keynesian economics ever dead? If so, has it been resurrected?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Fazzari</surname></persName>
+		</author>
+		<idno type="DOI">10.4337/roke.2020.01.05</idno>
+		<ptr target="https://doi.org/10.4337/roke.2020.01.05" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Ydq5baW">Review of Keynesian Economics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="46" to="60" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fazzari, S. M. (2020). Was Keynesian economics ever dead? If so, has it been resurrected?. Review of Keynesian Economics, 8(1), 46-60. https://doi.org/10.4337/roke.2020.01.05</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_z7vr6X6">Helicopter Ben, Monetarism, The New Keynesian Credit View and Loanable Funds</title>
+		<author>
+			<persName><forename type="first">Brett</forename><surname>Fiebiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Lavoie</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00213624.2020.1720567</idno>
+		<ptr target="https://doi.org/10.1080/00213624.2020.1720567" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WWgCbka">Journal of Economic Issues</title>
+		<title level="j" type="abbrev">Journal of Economic Issues</title>
+		<idno type="ISSN">0021-3624</idno>
+		<idno type="ISSNe">1946-326X</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="77" to="96" />
+			<date type="published" when="2020-01-02">2020</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fiebiger, B., &amp; Lavoie, M. (2020). Helicopter Ben, monetarism, the New Keynesian credit view and loanable funds. Journal of Economic Issues, 54(1), 77-96. https://doi.org/10.1080/00213624.2020.1720567</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_8EaWhHK">Austrian Perspectives on Entrepreneurship, Strategy, and Organization</title>
+		<author>
+			<persName><forename type="first">Nicolai</forename><forename type="middle">J</forename><surname>Foss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">G</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Mccaffrey</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/9781108777742</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uJwQKhf">Austrian perspectives on entrepreneurship, strategy, and organization</title>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2019-10-05">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foss, N. J., Klein, P. G., &amp; McCaffrey, M. (2019). Austrian perspectives on entrepreneurship, strategy, and organization. Cambridge, MA.: Cambridge University Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<ptr target="https://fred.stlouisfed.org/" />
+		<title level="m" xml:id="_trZAesh">Economic data</title>
+		<imprint>
+			<publisher>Federal Reserve Bank of St. Louis (FRED ®</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Federal Reserve Bank of St. Louis (FRED ® ). Economic data. https://fred.stlouisfed.org/</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main" xml:id="_FFsGkN2">Macroeconomics: Theories and policies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Froyen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0164-0704(84)90031-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8e6hHpT">Journal of Macroeconomics</title>
+		<title level="j" type="abbrev">Journal of Macroeconomics</title>
+		<idno type="ISSN">0164-0704</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">244</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Elsevier BV</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Froyen, R. T. (2013). Macroeconomics: Theories and policies. New York, NY.: Pearson.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_UejGmS7">Time and money: The universals of macroeconomic theorizing</title>
+		<author>
+			<persName><forename type="first">Roger</forename><forename type="middle">W</forename><surname>Garrison</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0164-0704(84)90005-3</idno>
+		<ptr target="https://doi.org/10.1016/0164-0704(84)90005-3" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_u37xduS">Journal of Macroeconomics</title>
+		<title level="j" type="abbrev">Journal of Macroeconomics</title>
+		<idno type="ISSN">0164-0704</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="197" to="213" />
+			<date type="published" when="1984-03">1984</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garrison, R. W. (1984). Time and money: the universals of macroeconomic theorizing. Journal of Macroeconomics, 6(2), 197-213. https://doi.org/10.1016/0164-0704(84)90005-3</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main" xml:id="_kPER4cq">Time and Money</title>
+		<author>
+			<persName><forename type="first">Roger</forename><forename type="middle">W</forename><surname>Garrison</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203208083</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uKP9pzD">Time and money: The macroeconomics of capital structure</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garrison, R. W. (2001). Time and money: The macroeconomics of capital structure. New York, NY.: Routledge.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goodhart</surname></persName>
+		</author>
+		<title level="m" xml:id="_2dtWr6q">The evolution of central banks</title>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT press</publisher>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goodhart, C. (1988). The evolution of central banks. Cambridge, MA.: MIT press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main" xml:id="_u9Xsmmq">Populism and central bank independence</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goodhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lastra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11079-017-9447-y</idno>
+		<ptr target="https://doi.org/10.1007/s11079-017-9447-y" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aMjra4d">Open Economies Review</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="49" to="68" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goodhart, C., &amp; Lastra, R. (2018). Populism and central bank independence. Open Economies Review, 29, 49-68. https://doi.org/10.1007/s11079-017-9447-y</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main" xml:id="_9VupbQd">The inverted yield curve, Austrian business cycle theory, and the True Money Supply</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Griggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Murphy</surname></persName>
+		</author>
+		<idno type="DOI">10.35297/qjae.010113</idno>
+		<ptr target="https://doi.org/10.35297/qjae.010113" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3g62HZB">Quarterly Journal of Austrian Economics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="523" to="541" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Griggs, R., &amp; Murphy, R. P. (2021). The inverted yield curve, Austrian business cycle theory, and the True Money Supply. Quarterly Journal of Austrian Economics, 24(4), 523-541. https://doi.org/10.35297/qjae.010113</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haberler</surname></persName>
+		</author>
+		<title level="m" xml:id="_8JZDgrA">Prosperity and depression: A theoretical analysis of cyclical movements</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="1937">1937. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haberler, G. [1937] 2017. Prosperity and depression: A theoretical analysis of cyclical movements. New York, NY: Routledge.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_sc9Bfem">Cantillon and Ricardo effects: Hayek&apos;s contributions to business cycle theory</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Trautwein</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10427719800000022</idno>
+		<ptr target="https://doi.org/10.1080/10427719800000022" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NPkScEg">Journal of the History of Economic Thought</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="292" to="316" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hagemann, H., &amp; Trautwein, H. M. (1998). Cantillon and Ricardo effects: Hayek&apos;s contributions to business cycle theory. Journal of the History of Economic Thought, 5(2), 292-316. https://doi.org/10.1080/10427719800000022</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Hayek</surname></persName>
+		</author>
+		<title level="m" xml:id="_YfWqZPT">The pure theory of capital</title>
+		<meeting><address><addrLine>Chicago, IL</addrLine></address></meeting>
+		<imprint>
+			<publisher>Chicago University Press</publisher>
+			<date type="published" when="1941">1941</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hayek, F. A. (1941). The pure theory of capital. Chicago, IL.: Chicago University Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main" xml:id="_yqgSWMz">5 Friedrich Hayek, from “The Use of Knowledge in Society” (1945)</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Hayek</surname></persName>
+		</author>
+		<idno type="DOI">10.7312/hayo18620-017</idno>
+		<ptr target="https://www.jstor.org/stable/1809376" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Dd5fNHS">Information</title>
+		<imprint>
+			<publisher>Columbia University Press</publisher>
+			<date type="published" when="1945">1945</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="519" to="530" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hayek, F. A. (1945). The use of knowledge in society. American Economic Review, 35(4), 519-530. https://www.jstor.org/stable/1809376</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main" xml:id="_S5Wz2CE">Hayek, Cassel, and the origins of the great depression</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">L</forename><surname>Hogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lawrence</forename><forename type="middle">H</forename><surname>White</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jebo.2020.12.005</idno>
+		<ptr target="https://doi.org/10.1016/j.jebo.2020.12.005" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nv8fHs8">Journal of Economic Behavior &amp; Organization</title>
+		<title level="j" type="abbrev">Journal of Economic Behavior &amp; Organization</title>
+		<idno type="ISSN">0167-2681</idno>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="241" to="251" />
+			<date type="published" when="2021-01">2021</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hogan, T. L., &amp; White, L. H. (2021). Hayek, Cassel, and the origins of the great depression. Journal of Economic Behavior &amp; Organization, 181, 241-251. https://doi.org/10.1016/j.jebo.2020.12.005</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main" xml:id="_Xks6eSN">Malinvestment</title>
+		<author>
+			<persName><forename type="first">Randall</forename><forename type="middle">G</forename><surname>Holcombe</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11138-016-0343-2</idno>
+		<ptr target="https://doi.org/10.1007/s11138-016-0343-2" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vy6CzyR">The Review of Austrian Economics</title>
+		<title level="j" type="abbrev">Rev Austrian Econ</title>
+		<idno type="ISSN">0889-3047</idno>
+		<idno type="ISSNe">1573-7128</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="153" to="167" />
+			<date type="published" when="2017">2017</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holcombe, R. G. (2017). Malinvestment. Review of Austrian Economics, 30(2), 153-167. https://doi.org/10.1007/s11138-016-0343-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main" xml:id="_Yq4rz7Y">Microfoundations and Macroeconomics</title>
+		<author>
+			<persName><forename type="first">Steven</forename><surname>Horwitz</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203456309</idno>
+		<imprint>
+			<date type="published" when="2000-09-28">2000</date>
+			<publisher>Routledge</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Horwitz, S. (2000). Microfoundations and macroeconomics: An Austrian perspective. New York, NY.: Routledge.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main" xml:id="_2ZFSKu2">The costs of inflation revisited</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Horwitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/A:1022961324928</idno>
+		<ptr target="https://doi.org/10.1023/A:1022961324928" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7PdT5Zg">Review of Austrian Economics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="77" to="95" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Horwitz, S. (2003). The costs of inflation revisited. Review of Austrian Economics, 16(1), 77-95. https://doi.org/10.1023/A:1022961324928</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main" xml:id="_6xKNRnG">Money, bank credit, and economic cycles</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huerta De Soto</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>The Mises Institute Press</publisher>
+			<pubPlace>Auburn, AL</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huerta de Soto, J. (2020). Money, bank credit, and economic cycles. Auburn, AL.: The Mises Institute Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main" xml:id="_rFzccrv">Toward a general theory of error cycles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Hülsmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12113-998-1024-1</idno>
+		<ptr target="https://doi.org/10.1007/s12113-998-1024-1" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yJdbsj7">Quarterly Journal of Austrian Economics</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hülsmann, J. G. (1998). Toward a general theory of error cycles. Quarterly Journal of Austrian Economics, 1(4), 1-23. https://doi.org/10.1007/s12113-998-1024-1</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main" xml:id="_zX9Mqzt">A theory of interest</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Hülsmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12113-002-1007-6</idno>
+		<ptr target="https://doi.org/10.1007/s12113-002-1007-6" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_abWRbZE">Quarterly Journal of Austrian Economics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="77" to="110" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hülsmann, J. G. (2002). A theory of interest. Quarterly Journal of Austrian Economics, 5(4), 77-110. https://doi.org/10.1007/s12113-002-1007-6</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main" xml:id="_Jc6vaHb">The entrepreneurial market process-An exposition</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Kirzner</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/soej.12212</idno>
+		<ptr target="https://doi.org/10.1002/soej.12212" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_54ByYVY">Southern Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="855" to="868" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kirzner, I. M. (2017). The entrepreneurial market process-An exposition. Southern Economic Journal, 83(4), 855-868. https://doi.org/10.1002/soej.12212</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Lachmann</surname></persName>
+		</author>
+		<title level="m" xml:id="_Dt4RAVN">Capital and its structure</title>
+		<meeting><address><addrLine>Kansas City, KC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sheed Andrews and McMell</publisher>
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lachmann, L. M. (1956). Capital and its structure. Kansas City, KC.: Sheed Andrews and McMell.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main" xml:id="_AyVVvy8">Non-performing loans in European Union: country governance dimensions</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Dato Haji Yahya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Habibullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mohd Ashhari</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/JFEP-01-2019-0027</idno>
+		<ptr target="https://doi.org/10.1108/JFEP-01-2019-0027" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_de5WGXz">Journal of Financial Economic Policy</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="209" to="226" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, Y. Y., Dato Haji Yahya, M. H., Habibullah, M. S., &amp; Mohd Ashhari, Z. (2020). Non-performing loans in European Union: country governance dimensions. Journal of Financial Economic Policy, 12(2), 209-226. https://doi.org/10.1108/JFEP-01-2019-0027</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lewin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cachanosky</surname></persName>
+		</author>
+		<title level="m" xml:id="_SKYqAXV">Austrian capital theory: A modern survey of the essentials</title>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lewin, P., &amp; Cachanosky, N. (2019). Austrian capital theory: A modern survey of the essentials. Cambridge, MA.: Cambridge University Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main" xml:id="_VKZnEWW">An empirical analysis of the Austrian business cycle theory</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Luther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11293-014-9415-5</idno>
+		<ptr target="https://doi.org/10.1007/s11293-014-9415-5" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_A6fFCsE">Atlantic Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="153" to="169" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luther, W., &amp; Cohen, M. (2014). An empirical analysis of the Austrian business cycle theory. Atlantic Economic Journal, 42(2), 153-169. https://doi.org/10.1007/s11293-014-9415-5</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Machlup</surname></persName>
+		</author>
+		<title level="m" xml:id="_pDsSvRB">The stock markey, credit, and capital formation</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>William Hodge and Company</publisher>
+			<date type="published" when="1931">1931. 1940</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Machlup, F. [1931] 1940. The stock markey, credit, and capital formation. London: William Hodge and Company.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mises</surname></persName>
+		</author>
+		<title level="m" xml:id="_P8fHQrb">The theory of money and credit</title>
+		<meeting><address><addrLine>New Haven, CT.</addrLine></address></meeting>
+		<imprint>
+			<publisher>Yale University Press</publisher>
+			<date type="published" when="1912">1912. 1953</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mises, L. [1912] 1953. The theory of money and credit. New Haven, CT.: Yale University Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mises</surname></persName>
+		</author>
+		<title level="m" xml:id="_aPC4vZr">Human action: A treatise on economics</title>
+		<meeting><address><addrLine>New Haven, CT.</addrLine></address></meeting>
+		<imprint>
+			<publisher>Yale University Press</publisher>
+			<date type="published" when="1949">1949</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mises, L. (1949). Human action: A treatise on economics. New Haven, CT.: Yale University Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main" xml:id="_UnCAwcx">Economic modelling-Beyond isolation and construction. The case of Austrian business cycle theory as presented by Roger Garrison</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mroz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hardt</surname></persName>
+		</author>
+		<idno type="DOI">10.1556/032.2020.00013</idno>
+		<ptr target="https://doi.org/10.1556/032.2020.00013" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fpMhene">Acta Oeconomica</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="251" to="273" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mroz, R., &amp; Hardt, L. (2020). Economic modelling-Beyond isolation and construction. The case of Austrian business cycle theory as presented by Roger Garrison. Acta Oeconomica, 70(2), 251- 273. https://doi.org/10.1556/032.2020.00013</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main" xml:id="_5TFRATY">Modern money theory and the facts of experience</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nersisyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Wray</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cje/bew015</idno>
+		<ptr target="https://doi.org/10.1093/cje/bew015" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Nfn6tAY">Cambridge Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1297" to="1316" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nersisyan, Y., &amp; Wray, L. R. (2016). Modern money theory and the facts of experience. Cambridge Journal of Economics, 40(5), 1297-1316. https://doi.org/10.1093/cje/bew015</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main" xml:id="_PphbCxe">Modern monetary theory: An Austrian interpretation of recrudescent Keynesianism</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Newman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11293-020-09653-7</idno>
+		<ptr target="https://doi.org/10.1007/s11293-020-09653-7" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_97wszum">Atlantic Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="31" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Newman, P. (2020). Modern monetary theory: An Austrian interpretation of recrudescent Keynesianism. Atlantic Economic Journal, 48(1), 23-31. https://doi.org/10.1007/s11293-020- 09653-7</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main" xml:id="_pX7dWsX">Complexity defying macroeconomics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paniagua</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cje/bead002</idno>
+		<ptr target="https://doi.org/10.1093/cje/bead002" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_m8SRm5B">Cambridge Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="575" to="592" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paniagua, P. (2023). Complexity defying macroeconomics. Cambridge Journal of Economics, 47(3), 575-592. https://doi.org/10.1093/cje/bead002</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Potuzak</surname></persName>
+		</author>
+		<title level="m" xml:id="_HWH9XVj">Austrian theory of capital and business cycle: A modern approach</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Macmillan</publisher>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Potuzak, P. (2022). Austrian theory of capital and business cycle: A modern approach. London: Macmillan.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Robbins</surname></persName>
+		</author>
+		<title level="m" xml:id="_SkQujkF">The great depression</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="1934">1934. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robbins, L. [1934] (2009). The great depression. New York, NY: Routledge.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Rothbard</surname></persName>
+		</author>
+		<title level="m" xml:id="_ENMp3uf">The mystery of banking</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Richardson and Snyder</publisher>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rothbard, M. N. (1983). The mystery of banking. New York, NY.: Richardson and Snyder.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main" xml:id="_nq8dM9q">America&apos;s great depression</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Rothbard</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1963">1963</date>
+			<publisher>Van Nostrand</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rothbard, M. N. (1963). America&apos;s great depression. New York, NY.: Van Nostrand.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main" xml:id="_Xp3zSgs">The &apos;True&apos; Money Supply: A measure of the supply of the medium of exchange in the U.S. economy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Salerno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cCFZYPk">Austrian Economics Newsletter</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="1987">1987</date>
+			<pubPlace>Spring</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salerno, J. T. (1987). The &apos;True&apos; Money Supply: A measure of the supply of the medium of exchange in the U.S. economy. Austrian Economics Newsletter (Spring): 1-6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main" xml:id="_HsSncch">Money, sound and unsound</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Salerno</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>The Mises Institute Press</publisher>
+			<pubPlace>Auburn, AL</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salerno, J. T. (2010). Money, sound and unsound. Auburn, AL.: The Mises Institute Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main" xml:id="_3H8gf4p">How would the invisible hand handle money?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Selgin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QK7Sw4V">Journal of Economic Literature</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1718" to="1749" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Selgin, G. A., &amp; White, L. H. (1994). How would the invisible hand handle money?. Journal of Economic Literature, 32(4), 1718-1749.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sieroń</surname></persName>
+		</author>
+		<title level="m" xml:id="_EK7jpsu">Money, inflation and business cycles: The Cantillon effect and the economy</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sieroń, A. (2020). Money, inflation and business cycles: The Cantillon effect and the economy. New York, NY.: Routledge.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main" xml:id="_3reQqPK">The mystery of the money supply definition</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shostak</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12113-000-1027-z</idno>
+		<ptr target="https://doi.org/10.1007/s12113-000-1027-z" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aEJVRy5">Quarterly Journal of Austrian Economics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="69" to="76" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shostak, F. (2000). The mystery of the money supply definition. Quarterly Journal of Austrian Economics, 3(4), 69-76. https://doi.org/10.1007/s12113-000-1027-z</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Skousen</surname></persName>
+		</author>
+		<title level="m" xml:id="_zefD6DP">The structure of production</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>New York University Press</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Skousen, M. A. (2015). The structure of production. New York, NY: New York University Press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Taylor</surname></persName>
+		</author>
+		<title level="m" xml:id="_5KGu5HN">Reform of the international monetary system: why and how?</title>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT press</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taylor, J. B. (2019). Reform of the international monetary system: why and how?. Cambridge, MA.: MIT press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main" xml:id="_ZFXAnWH">Business cycle theories after Keynes: A brief review considering the notions of equilibrium and instability</title>
+		<author>
+			<persName><forename type="first">Trotta</forename><surname>Vianna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.strueco.2022.12.004</idno>
+		<ptr target="https://doi.org/10.1016/j.strueco.2022.12.004" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MknCm9A">Structural Change and Economic Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">C</biblScope>
+			<biblScope unit="page" from="134" to="143" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Trotta Vianna, M. (2023). Business cycle theories after Keynes: A brief review considering the notions of equilibrium and instability. Structural Change and Economic Dynamics, 64(C), 134- 143. https://doi.org/10.1016/j.strueco.2022.12.004</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main" xml:id="_XWHuq4g">Credit expansion, the prisoner&apos;s dilemma and free banking as mechanism design</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Den Hauwe</surname></persName>
+		</author>
+		<idno type="DOI">10.52195/pm.v5i2.308</idno>
+		<ptr target="https://doi.org/10.52195/pm.v5i2.308" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_u3zBbNT">Procesos de Mercado</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="133" to="174" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Den Hauwe, L. (2008). Credit expansion, the prisoner&apos;s dilemma and free banking as mechanism design. Procesos de Mercado, 5(2), 133-174. https://doi.org/10.52195/pm.v5i2.308</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main" xml:id="_rSJCZ8U">Austrian business cycle theory: A modern appraisal</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_J3Tq7JE">The oxford handbook of Austrian economics</title>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Boettke</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Coyne</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY.</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="186" to="212" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Young, A. T. (2015). Austrian business cycle theory: A modern appraisal. In P.J. Boettke &amp; C.J. Coyne (eds.), The oxford handbook of Austrian economics (pp. 186-212). New York, NY.: Oxford University Press.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
